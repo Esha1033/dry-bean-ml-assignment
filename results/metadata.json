@@ -1,0 +1,62 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset",
+  "doi": "https://doi.org/10.24432/C50S4B",
+  "license": "CC BY 4.0",
+  "source_sha256": "0a64eff5be87f48c3dbbfc0a12a56c5d5b5167ef8e61cd45d69b3e7c7130c06f",
+  "raw_rows": 13611,
+  "exact_duplicates_removed": 68,
+  "usable_rows": 13543,
+  "training_rows": 10834,
+  "test_rows": 2709,
+  "features": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "training_class_counts": {
+    "BARBUNYA": 1057,
+    "BOMBAY": 418,
+    "CALI": 1304,
+    "DERMASON": 2837,
+    "HOROZ": 1488,
+    "SEKER": 1621,
+    "SIRA": 2109
+  },
+  "test_class_counts": {
+    "BARBUNYA": 265,
+    "BOMBAY": 104,
+    "CALI": 326,
+    "DERMASON": 709,
+    "HOROZ": 372,
+    "SEKER": 406,
+    "SIRA": 527
+  },
+  "random_state": 42,
+  "test_fraction": 0.2,
+  "sklearn_version": "1.7.2",
+  "averaging": "macro over all seven labels; AUC is macro one-vs-rest",
+  "winner_rule": "Highest held-out macro F1; descriptive comparison, not model tuning",
+  "test_csv_sha256": "24b6d67a7dbcea9b27e18d6381f8c1407861273cdd5a851ccabd03677ef6f15d"
+}

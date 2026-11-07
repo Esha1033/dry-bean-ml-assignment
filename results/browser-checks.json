@@ -1,0 +1,12 @@
+{
+  "browser": "Chromium",
+  "verified": [
+    "All five model dropdown selections and all six displayed metrics",
+    "Confusion matrix and classification report",
+    "Real file upload and comparison/prediction CSV downloads",
+    "Invalid upload validation and recovery",
+    "Single-class AUC warning",
+    "Desktop and mobile rendering"
+  ],
+  "note": "Local browser evidence only; not BITS Virtual Lab execution proof."
+}
