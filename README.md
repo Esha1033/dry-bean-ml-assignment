@@ -70,12 +70,12 @@ and capitalization. The target is never included among input features.
 
 ## c. GitHub Repository Link
 
-Repository: GITHUB_REPOSITORY_URL
+Repository: [Esha1033/dry-bean-ml-assignment](https://github.com/Esha1033/dry-bean-ml-assignment)
 
 Live Streamlit Community Cloud app: STREAMLIT_APP_URL
 
-These are explicit placeholders, not published links. Replace them after publishing
-your own repository and deploying the app. The PDF builder can insert the supplied
+The GitHub repository is published. `STREAMLIT_APP_URL` remains a placeholder;
+replace it after deploying the app. The PDF builder can insert the supplied
 real links into this README.
 
 ## d. Models used
@@ -288,8 +288,8 @@ are evidence of UI testing only, not BITS Virtual Lab execution.
 6. Deploy and verify the live app with the included test CSV and all five models.
 7. Record the real public GitHub and `.streamlit.app` URLs in this README.
 
-No repository or cloud app has been published by this local project setup.
-Account authorization and a user-owned repository are needed for those steps.
+The GitHub repository is published. Streamlit deployment still requires account
+authorization and a verified live app URL.
 
 ## Final submission PDF
 
